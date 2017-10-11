@@ -21,6 +21,8 @@ page '/*.txt', layout: false
 set :relative_links, true
 activate :protect_emails
 activate :relative_assets
+activate :directory_indexes
+
 
 # Reload the browser automatically whenever files change
 configure :development do
