@@ -1,0 +1,142 @@
+$font-flex-1: calc(1rem + 2.2vw);
+$font-flex-2: calc(1rem + 0.5vw);
+$font-flex-3: calc(1rem + 0.25vw);
+
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont, sans-serif;
+    font-size: 1rem;
+    line-height: 1.55;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p:first-of-type {
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+a {color: #666;}
+a:hover, a:focus, a:active {
+    color: darken(#444, 30%);
+    text-decoration: none;
+}
+
+.ml1 {margin-left: 1rem;}
+.ml2 {margin-left: 2rem;}
+.ml3 {margin-left: 3rem;}
+.mt3 {margin-top: 3rem;}
+
+.pr3 {padding-right: 3rem;}
+
+.px3 {padding: 0 3rem;}
+
+.profile-image {
+    max-width: 3rem;
+}
+
+.header-navigation {
+    background: #eee;
+    padding-top: 1rem;
+    a {
+    text-decoration: none;
+    padding: 2.5vw 0;
+    @media (min-width: 700px) { 
+        font-size: $font-flex-2;}
+    }
+}
+
+.about-main {
+    padding: 2rem 1rem;
+    @media (min-width: 700px) { 
+        padding: 0 4rem;
+    }
+}
+
+.info-section {
+    color: #222;
+    margin-bottom: 10vw;
+    background: #eee;
+    p {
+    padding: 6vw 15px;
+    z-index: 10;
+        @media (min-width: 700px) { 
+            font-size: $font-flex-1;
+            text-align: center;
+        }
+    }  
+    img {
+    margin-bottom: -10px;
+    margin-top: -2rem;
+    z-index: -10;
+    width: 100%;
+    }
+}
+
+.projects {
+    h2, p {
+        @media (min-width: 700px) { 
+        font-size: $font-flex-2;
+        } 
+        margin: 0 auto 0.5rem auto;
+        max-width: 30rem;
+    }
+    p:last-of-type {
+        margin-bottom: 2rem;
+    }
+}
+
+.section-request {
+    margin-bottom: 6rem;
+    @media (min-width: 700px) { 
+    font-size: $font-flex-2;
+    }
+}
+
+.project-container {
+    margin-bottom: 2rem;
+    padding: 0 1rem 1rem 2rem;
+    border-bottom: dotted 1px #ccc;
+}
+
+.footer-section {
+    padding: 3vw;
+    text-align: center;
+    border-top: solid 1px #ccc;
+    margin-top: 8vw;
+}
+
+
+/* Utilities =============== */
+
+.flex {display: flex;}
+
+.lighter {
+    color: #999;
+}
+
+.ui-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+    text-align: center!important;
+}
