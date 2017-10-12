@@ -22,6 +22,7 @@ set :relative_links, true
 activate :protect_emails
 activate :relative_assets
 activate :directory_indexes
+activate :asset_hash
 
 
 # Reload the browser automatically whenever files change
@@ -43,8 +44,8 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 end
