@@ -38,13 +38,16 @@ a:hover, a:focus, a:active {
 .ml3 {margin-left: 3rem;}
 .mt3 {margin-top: 3rem;}
 
+.mb2 {margin-bottom: 2rem;}
+.mb3 {margin-bottom: 3rem;}
+
 .pr3 {padding-right: 3rem;}
 
 .px3 {padding: 0 3rem;}
 
-.profile-image {
-    max-width: 3rem;
-}
+// .profile-image {
+//     max-width: 12rem;
+// }
 
 .header-navigation {
     background: #eee;
@@ -57,12 +60,12 @@ a:hover, a:focus, a:active {
     }
 }
 
-.about-main {
-    padding: 2rem 1rem;
-    @media (min-width: 700px) { 
-        padding: 0 4rem;
-    }
-}
+// .about-main {
+//     padding: 2rem 1rem;
+//     @media (min-width: 700px) { 
+//         padding: 0 2rem;
+//     }
+// }
 
 .info-section {
     color: #222;

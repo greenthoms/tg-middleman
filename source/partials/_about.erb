@@ -5,20 +5,25 @@
 </style>
 <div class="container mt3">
     <div class="row">
-        <div class="col-sm-3">
+        <div class="col-6 col-sm-3 mb2">
             <img src="/images/thomas-green.png" class="img-fluid profile-image" alt="Thomas Green profile image">
         </div>
-        <div class="col-sm-6 about-main">
-            <p>Hello, I'm Thomas Green — a designer currently living and working in Berlin.</p>
-            <p>I design and build digital products, services and tools. My focus is user experience and interaction design. My work often involves prototyping, usability testing, visual design and front-end development.</p>
-            <p>This site was built with <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and is hosted on <a href=" target="_blank"">Github pages</a>. The bridge photo was taken by <a href="http://www.thenovocastrianfiles.com/2012/08/30/belinda-howden/" target="_blank">Belinda Howden</a>, the portrait by <a href="http://cargocollective.com/brookeshantifenner" target="_blank">Brooke Fenner</a>.</p>
+        <div class="col-12 col-sm-9 mb2 about-main">
+
+            <div class="row">
+                <div class="col-12 col-md-7">
+                    <p>Hello, I'm Thomas Green — a designer currently living and working in Berlin.</p><p>I design and build digital products, services and tools. My focus is user experience and interaction design. My work often involves prototyping, usability testing, visual design and front-end development.</p>
+                    <p>This site was built with <a href="https://middlemanapp.com/" target="_blank">Middleman</a> and is hosted on <a href="https://github.com/greenthoms/greenthoms.github.io" target="_blank">Github pages</a>. The bridge photo was taken by <a href="http://www.thenovocastrianfiles.com/2012/08/30/belinda-howden/" target="_blank">Belinda Howden</a>, the portrait by <a href="http://cargocollective.com/brookeshantifenner" target="_blank">Brooke Fenner</a>.</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <p><%= partial "partials/email" %>
+                    <br>DE: +49 151 66085855
+                    <br>Skype: greenthoms</p>
+                    <%= partial "partials/social-links" %>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-3 about-contact">
-            <p><%= partial "partials/email" %>
-            <br>DE: +49 151 66085855
-            <br>Skype: greenthoms</p>
-            <%= partial "partials/social-links" %>
-        </div>
+
     </div>
 </div>
 <%= partial "partials/images/imgBridge" %>
