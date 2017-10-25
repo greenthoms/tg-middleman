@@ -13,7 +13,7 @@
       // Picture element HTML5 shiv
       document.createElement( "picture" );
     </script>
-    <script src="js/picturefill.js" async></script>
+    <script src="/js/picturefill.js" async></script>
 
     <%= stylesheet_link_tag :grid %>
     <%= stylesheet_link_tag :bass %>
@@ -23,6 +23,7 @@
 
   <body class="<%= page_classes %>">
     <%= partial "partials/header" %>
+
     <%= yield %>
     <%= partial "partials/footer" %>
   </body>
