@@ -1,3 +1,17 @@
+<style>
+.filterDesat {
+    filter: saturate(0);
+}
+.filterDesat3 {
+    filter: brightness(3);    
+}
+
+.filterContrast4 {
+    filter: contrast(2);
+}
+
+</style>
+
 <div class="container">
     <div class="row justify-content-center center">
         <div class="col-12">
@@ -9,6 +23,11 @@
         </picture>
         </div>
     </div>
-</div>
 
+<div class="row justify-content-center my3">
+    <div class="col-8">
+    <img src="/images/over-loop/over-loop-sketch.jpg" class="img-fluid filterContrast4" alt="Over Loop sketch">
+    </div>
+</div>
+</div>
 <%= partial "partials/index-link" %>

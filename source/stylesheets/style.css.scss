@@ -10,25 +10,14 @@ body {
     }
 }
 
-h1, h2, h3 {
-    font-size: 1rem;
-    @media (min-width: 992px) {
-        font-size: 1.2rem;
-    }
-}
-
-ul {
-    padding-left: 1.5rem;
-}
-
 a {
   color: #444;
-  cursor: pointer;
+  transition: all 0.5s ease;
 }
+
 a:hover, a:focus, a:active {
     color: lighten(#444, 30%);
     text-decoration: none;
-    cursor: pointer;
 }
 
 // Image styles
@@ -47,21 +36,7 @@ a:hover, a:focus, a:active {
     }
 }
 
-.jumbo {
-  @media (min-width: 500px) {
-    font-size: 5vw;
-    line-height: 1.2;
-    margin-bottom: 6vw;
-  } 
-    font-size: 1rem;
-    margin-bottom: 9vw;
-    color: #000;
-    font-weight: 600;
-}
-
 .header-navigation {
-    border-bottom: solid 1px #ddd;
-    margin-bottom: 2rem;
     a {
     text-decoration: none;
     padding: 2.5vw 0;
