@@ -3,10 +3,11 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     font-weight: 400;
-    color: #444;
+    color: #000;
     margin: 0;
     @media (min-width: 992px) {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
+        line-height: 1.2;
     }
 }
 
@@ -121,58 +122,18 @@ a:hover, a:focus, a:active {
   margin-bottom: 2rem;
 }
 
-.box {
-  padding: 20px;
-  padding: 2vw;
-}
+// .box {
+//   padding: 20px;
+//   padding: 2vw;
+// }
 .box a {
   opacity: 1;
 }
 a:hover.box  {
-  opacity: 0.9;
+  opacity: 0.6;
   cursor: pointer;
 }
 
-// .box {
-//   img {
-//     filter: grayscale(1);
-//   }
-// }
-// .box:hover {
-//   img {
-//     filter: grayscale(0);
-//   }
-// }
-
-
-// Image grid
-.box-over-loop {
-  background-color: #9fa7d1;
-  background-color: #ffc1c1;
-  background-color: #ffbb99;
-  background-color: #444;
-  background-color: #494c6a;
-  background-color: #FDC0BE;
-
-}
-
-.box-next-wave {
-  background-color: #ffc1c1;
-  background-color: #9fa7d1;
-  background-color: #889bff;
-  background-color: #FDF39F;
-}
-
-.box-synergetic {
-  background-color: #ffeabb;
-  background-color: #ffd9aa;
-  background-color: #B4DBFB;
-}
-
-.box-hello-medical {
-  background-color: #ACEBC7;
-  padding: 2vw 3vw;
-}
 
 .box-tilman {
   background-color: #ffe8c9;
@@ -182,13 +143,12 @@ a:hover.box  {
   }
 }
 .box-telstra {
-  background-color: #A4A4B5;
+  background-color: #d7e3ff;
 }
 
-
-.border-bottom,
-.border-top {
-  border-color: #ddd;
+.box {
+  background-color: #e7e9ee;
+  padding: 2vw;
 }
 
 // Easter egg
@@ -199,4 +159,9 @@ a:hover.box  {
 // Bass overrides
 .bold {
     font-weight: 600;
+}
+
+.border-bottom,
+.border-top {
+  border-color: #ddd;
 }
