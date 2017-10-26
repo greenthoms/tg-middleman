@@ -1,33 +1,18 @@
-<style>
-.filterDesat {
-    filter: saturate(0);
-}
-.filterDesat3 {
-    filter: brightness(3);    
-}
-
-.filterContrast4 {
-    filter: contrast(2);
-}
-
-</style>
+---
+layout: "project"
+---
 
 <div class="container">
     <div class="row justify-content-center center">
         <div class="col-12">
-            <p class="py3 my3 bold">A mobile audio app for mixing and looping. Collaboration with <a href="https://kavsingh.com/" target="_blank" rel="noopener">Kav Singh</a>.</p>
-        <picture>
-            <source srcset="/images/over-loop/over-loop-lg.svg" media="(min-width: 600px)">
-            <source srcset="/images/over-loop/over-loop-sm.svg" media="(min-width: 300px)">
-            <img src="/images/over-loop/over-loop-lg.png" class="img-fluid" alt="Over Loop Mobile">
-        </picture>
+        <p class="py3 my3 bold">A mobile audio app for mixing and looping. Collaboration with <a href="https://kavsingh.com/" target="_blank" rel="noopener">Kav Singh</a>.</p>
+            <img src="/images/over-loop/over-loop-home.svg" class="img-fluid" alt="Over Loop">
         </div>
     </div>
 
-<div class="row justify-content-center my3">
-    <div class="col-8">
-    <img src="/images/over-loop/over-loop-sketch.jpg" class="img-fluid filterContrast4" alt="Over Loop sketch">
+    <div class="row justify-content-center my3">
+        <div class="col-8">
+            <img src="/images/over-loop/over-loop-sketch.jpg" class="img-fluid filterContrast" alt="Over Loop sketch">
+        </div>
     </div>
 </div>
-</div>
-<%= partial "partials/index-link" %>
