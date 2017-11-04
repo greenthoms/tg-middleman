@@ -7,8 +7,10 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the build directory
+# Ignore directories
 /build
+/source/images
+/source/videos
 
 # Ignore cache
 /.sass-cache
@@ -21,3 +23,4 @@
 # Ignore images
 *.png
 *.jpg
+*.mp4

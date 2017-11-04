@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <a href="projects/synergetic" class="box box-synergetic">
+                <img src="images/synergetic/my-students-lg.png" 
+                     class="img-fluid" 
+                     alt="Synergetic"
+                     width="420px">
+            </a>
+            <a href="projects/over-loop" class="box box-over-loop">
+                <img src="images/over-loop/over-loop-home.svg" 
+                     class="img-fluid" 
+                     alt="Over Loop" 
+                     width="230px">
+            </a>
+
+        </div>
+        <div class="col">
+            <a href="projects/next-wave" class="box box-next-wave">
+                <img src="images/homepage/next-wave-thomas-green.png" 
+                     class="img-fluid" 
+                     alt="Next Wave thumbnail" 
+                     width="230px">
+            </a>
+            <a href="projects/telstra-health" class="box box-telstra">
+                <img src="images/telstra-health/th-styleguide-01.png" 
+                     class="img-fluid" 
+                     alt="Telstra Health thumbnail"
+                     width="420px">
+            </a>
+        </div>
+    </div>
+</div>

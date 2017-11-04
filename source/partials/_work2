@@ -1,0 +1,65 @@
+<style>
+    .project-section {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
+</style>
+
+<div class="container">
+
+    <%# Telstra Health %>
+    <div class="project-section row justify-content-center">
+        <div class="col-3">
+            <h1 class="h3">Streamlined document managment for aged care facilities.</h1>
+            <p>Completed at Telstra Health • 2016-2017</p>
+        </div>
+        <div class="col-6">
+            <a href="projects/telstra-health">
+                <img src="images/telstra-health/th-styleguide-01.png"
+                     class="img-fluid"
+                     alt="Telstra Health thumbnail">
+            </a>
+        </div>
+    </div>
+
+    <%# Over Loop %>
+    <div class="project-section container row justify-content-center p3">
+        <div class="col">
+            <a href="projects/over-loop" class="box box-over-loop">
+                <img src="images/over-loop/over-loop-home.svg"
+                     class="img-fluid"
+                     alt="Over Loop"
+                     width="230px">
+            </a>
+        </div>
+    </div>
+
+    <%# Synergetic %>
+    <div class="project-section container row justify-content-center p3">
+        <div class="col-6">
+            <a href="projects/synergetic" class="right">
+                <img src="images/synergetic/my-students-lg.png"
+                class="img-fluid"
+                alt="Synergetic"
+                width="420px">
+            </a>
+        </div>
+        <div class="col-5">
+            <h1 class="h3">Time saving tools for teaching and school administration.</h1>
+            <p>Completed at Synergetic • 2014-2016</p>
+        </div>
+    </div>
+
+    <%# Next Wave %>
+    <div class="project-section container row justify-content-center p3">
+        <div class="col">
+            <a href="projects/next-wave" class="box box-next-wave">
+                <img src="images/homepage/next-wave-thomas-green.png"
+                     class="img-fluid"
+                     alt="Next Wave thumbnail"
+                     width="230px">
+            </a>
+        </div>
+    </div>
+
+</div>

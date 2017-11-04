@@ -1,0 +1,57 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-5">
+            <%# Telstra %>
+            <a href="projects/telstra-health" class="box box-telstra">
+                <div class="p3">
+                    <h2 class="h3"><strong>Resident Documents</strong></h2>
+                    <p class="pr3 mr3">Redesigned document management for a leading aged care software provider.</p>
+                    <p class="text-light">Completed at Telstra Health in 2017.</p>
+                </div>
+                <div class="ml3 mb-1">
+                    <img src="images/homepage/th-thumb.jpg"
+                     class="img-fluid"
+                     alt="Telstra Health thumbnail">
+                </div>
+            </a>
+            <%# Overloop %>
+            <a href="projects/over-loop" class="box box-over-loop">
+                <div class="p3">
+                    <h2 class="h3"><strong>Over Loop</strong></h2>
+                    <p class="pr3">A mobile audio app for mixing and looping. An ongoing side project. Collaboration with Kav Singh.</p>
+                </div>
+                <img src="images/over-loop/over-loop-home.svg"
+                     class="img-fluid align-self-center mb3"
+                     alt="Over Loop"
+                     width="230px">
+            </a>
+
+        </div>
+        <div class="col-12 col-sm-5">
+
+            <%# Next wave %>
+            <a href="projects/next-wave" class="box box-next-wave">
+                <div class="p3">
+                <h2 class="h3"><strong>Next Wave</strong></h2>
+                <p class="pr3 mr3">Website redesign and digital campaign for a contemporary arts festival.</p>
+                <p class="text-light">Completed in 2015.</p>
+                </div>
+                <img src="images/homepage/nw-thumb.png"
+                     class="img-fluid align-self-center mt1"
+                     alt="Next Wave thumbnail"
+                     width="230px">
+            </a>
+
+            <%# Student enrollment %>
+            <a href="projects/synergetic" class="box box-synergetic p3 pb0">
+                <h2 class="h3"><strong>Student Enrollments</strong></h2>
+                <p>Redesigned the online enrollment experience for over 1000 schools and colleges.</p>
+                <p class="text-light">Completed at Synergetic in 2016.</p>
+                <img src="images/synergetic/my-students-lg.png"
+                     class="img-fluid mt2"
+                     alt="Synergetic">
+            </a>
+
+        </div>
+    </div>
+</div>

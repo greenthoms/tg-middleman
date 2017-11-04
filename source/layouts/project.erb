@@ -20,7 +20,10 @@
   <%= stylesheet_link_tag :style %>
 </head>
 
-  <body class="<%= page_classes %> pt3 mt3">
+  <body class="<%= page_classes %>">
+    <div class="border-bottom">
+    <%= partial "partials/header" %>
+    </div>
     <%= yield %>
     <%= partial "partials/index-link" %>
     <%= partial "partials/footer" %>
